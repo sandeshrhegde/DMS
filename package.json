@@ -1,0 +1,10 @@
+{
+  "name": "dealer-management-system",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": ["backend", "frontend", "packages/*"],
+  "scripts": {
+    "dev:api": "npm --workspace dms-backend run dev",
+    "dev:web": "npm --workspace dms-frontend run dev"
+  }
+}
